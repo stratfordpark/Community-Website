@@ -1,0 +1,27 @@
+{
+  "name": "community-website",
+  "version": "1.0.0",
+  "description": "StratfordPark.org website for residents and admin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stratfordpark/Community-Website.git"
+  },
+  "keywords": [
+    "StratfordPark.org"
+  ],
+  "author": "James W Dalton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stratfordpark/Community-Website/issues"
+  },
+  "homepage": "https://github.com/stratfordpark/Community-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0"
+  }
+}
