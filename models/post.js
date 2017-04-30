@@ -1,6 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
   var Post = sequelize.define("Post", {
-    
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -33,6 +32,13 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.TEXT,
       allowNull: false,
       len: [1]
+    },
+    userDate: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        len: [1]
+      }
     },
     createdDate: {
       type: DataTypes.DATE,
